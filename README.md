@@ -1,2 +1,34 @@
-# Designing-an-Autonomous-Learning-Agent-with-Checkpoint-Verification-and-Feynman-Pedagogy
-An AI-powered personalized learning platform built with Python, Streamlit, Groq LLM, and SQLite. It helps students deeply understand concepts using the Feynman Technique, simple language, and real-world analogies, with dynamically generated quizzes and feedback to continuously improve learning.
+# 🎓 AI Personalized Learning Agent
+
+An AI-powered personalized learning platform built using Python, Streamlit, Groq LLM, and SQLite.
+
+## 🚀 Features
+- Concept-based learning
+- AI-generated explanations
+- Dynamic quizzes
+- Feynman Technique for re-learning
+- Progress tracking & badges
+- Persistent student history (SQLite)
+
+## 🧠 Learning Method
+This project applies the **Feynman Technique**:
+- Explains concepts in simple language
+- Uses analogies
+- Re-tests understanding with new quizzes
+
+## 🛠 Tech Stack
+- Python
+- Streamlit
+- LangChain
+- Groq LLM
+- SQLite
+
+## ▶️ How to Run
+
+```bash
+git clone <repo-url>
+cd AI-Learning-Agent
+python -m venv venv
+venv\Scripts\activate
+pip install -r requirements.txt
+streamlit run app.py
